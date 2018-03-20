@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./static/css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./static/materialize.min.js"></script>
+    <script type="text/javascript" src="./static/js/custom.js"></script>
+
+    <style type="text/css">
+        #fancyfont {
+            font-family: "Sofia";
+        }
+    </style>
+
+    <div class="row">
+        <div class="col s6">
+            <!-- 250px, below 725px-->
+            <a href="/"><img class="responsive-img" style="position:relative;left:60%" width="40%" height="40%" src="./static/images/logo.jpg"></a>
+        </div>
+        <div class="col s6">
+            <a href="/"><img class="responsive-img" style="position:relative;top:50px;" width="40%" height="40%" src="./static/images/logo2.png"></a>
+        </div>
+    </div>
+    <nav>
+        <div class="nav-wrapper white">
+            <!-- <a href="/" class="brand-logo left black-text"><img style = "position:absolute;left:5px;" width = "63px" height = "63px" src = "{{ url_for('static', filename='images/logo.jpg') }}"></a> -->
+            <div class="hide-on-med-and-down">
+                <ul class="center">
+                    <li><a href="index.html/#introduction" class="btn-flat">Introduction</a></li>
+                    <li><a href="aboutus.html" class="btn-flat">About Us</a></li>
+                    <li><a href="index.html/#faq" class="btn-flat">FAQ</a></li>
+                    <li><a href="t&c.html" class="btn-flat">Terms and Conditions</a></li>
+                    <li><a href="sponsors.html" class="btn-flat">Our Sponsors</a></li>
+                    <li><a href="/ngo" class="btn-flat">NGO</a></li>
+                    <li><a href="/registration" class="btn-flat">Register</a></li>
+                </ul>
+            </div>
+            <div class="hide-on-large-only">
+                <ul class="right">
+                    <li><a data-activates="slide-out" class="button-collapse btn-flat center">Menu</a></li>
+                </ul>
+            </div>
+            <ul id="slide-out" class="side-nav">
+                <li><a href="index.html/#introduction" class="btn-flat">Introduction</a></li>
+                <li><a href="aboutus.html" class="btn-flat">About Us</a></li>
+                <li><a href="index.html/#faq" class="btn-flat">FAQ</a></li>
+                <li><a href="t&c.html" class="btn-flat">Terms and Conditions</a></li>
+                <li><a href="sponsors.html" class="btn-flat">Our Sponsors</a></li>
+                <li><a href="/ngo" class="btn-flat">NGO</a></li>
+                <li><a href="/registration" class="btn-flat">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-title center-align">
+                Our team
+            </div>
+            <div class="card-content">
+                <div class="row">
+                    <div class="col s4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/sample-1.jpg">
+                            </div>
+                            <div class="card-content">
+                                <p class="flow-text">Aniruddh Bhaskaran</p>
+                                <br>
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="">
+                            </div>
+                            <div class="card-content">
+                                <p class="flow-text">2&pi;rman Saxena</p>
+                                <br>
+                                <p>I have played tennis at a local and national level, peaking at a rank of 284 in the U-12 category. I still play tennis, and other sports casually. I enjoy propagating a love for sports to others.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./static/images/teamimages/bk.jpg">
+                            </div>
+                            <div class="card-content">
+                                <p class="flow-text">Baller teja</p>
+                                <br>
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./static/images/teamimages/ninny.jpg">
+                            </div>
+                            <div class="card-content">
+                                <div class="flow-text">Niranjan Sridhar</div>
+                                <br>
+                                <p>I have been an avid fan of football for as long as I can remember. I truly believe in the positive mental and physical benefits of playing sports. That’s why I play sport, and I would like to encourage other people to play
+                                    as well.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/sample-1.jpg">
+
+                            </div>
+                            <div class="card-content">
+                                <p class="flow-text">Vatsal Bagri</p>
+                                <br>
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/sample-1.jpg">
+
+                            </div>
+                            <div class="card-content">
+                                <p class="flow-text"></p>
+                                <br>
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/sample-1.jpg">
+
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='col s8'></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Contact us</h5>
+                    <p class="grey-text text-lighten-4">
+                        Email us at <a href="mailto:sports.for.change.bangalore@gmail.com">sports.for.change.bangalore@gmail.com</a>
+                        <br> Call us at +919036492611
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Social media</h5>
+                    <ul>
+                        <li><a href="https://www.facebook.com/ball.duty.9">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/sports.for.change/">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Copyright Sports for Change
+                <span class="grey-text text-lighten-4 right" href="#!"><> by <a href = "https://github.com/BK-Modding">BK-Modding</a>, <a href = "https://github.com/LaserTrajectory">Laser Trajectory</a></span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

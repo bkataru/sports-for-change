@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./static/css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./static/js/materialize.min.js"></script>
+    <script type="text/javascript" src="./static/js/custom.js"></script>
+
+    <style type="text/css">
+        #fancyfont {
+            font-family: "Sofia";
+        }
+    </style>
+
+    <div class="row">
+        <div class="col s6">
+            <!-- 250px, below 725px-->
+            <a href="/"><img class="responsive-img" style="position:relative;left:60%" width="40%" height="40%" src="./static/images/logo.jpg"></a>
+        </div>
+        <div class="col s6">
+            <a href="/"><img class="responsive-img" style="position:relative;top:50px;" width="40%" height="40%" src="./static/images/logo2.png"></a>
+        </div>
+    </div>
+    <nav>
+        <div class="nav-wrapper white">
+            <!-- <a href="/" class="brand-logo left black-text"><img style = "position:absolute;left:5px;" width = "63px" height = "63px" src = "{{ url_for('static', filename='images/logo.jpg') }}"></a> -->
+            <div class="hide-on-med-and-down">
+                <ul class="center">
+                    <li><a href="index.html#introduction" class="btn-flat">Introduction</a></li>
+                    <li><a href="aboutus.html" class="btn-flat">About Us</a></li>
+                    <li><a href="index.html#faq" class="btn-flat">FAQ</a></li>
+                    <li><a href="t&c.html" class="btn-flat">Terms and Conditions</a></li>
+                    <li><a href="sponsors.html" class="btn-flat">Our Sponsors</a></li>
+                    <li><a href="ngo.html" class="btn-flat">NGO</a></li>
+                    <li><a href="/registration" class="btn-flat">Register</a></li>
+                </ul>
+            </div>
+            <div class="hide-on-large-only">
+                <ul class="right">
+                    <li><a data-activates="slide-out" class="button-collapse btn-flat center">Menu</a></li>
+                </ul>
+            </div>
+            <ul id="slide-out" class="side-nav">
+                <li><a href="index.html#introduction" class="btn-flat">Introduction</a></li>
+                <li><a href="aboutus.html" class="btn-flat">About Us</a></li>
+                <li><a href="index.html#faq" class="btn-flat">FAQ</a></li>
+                <li><a href="t&c.html" class="btn-flat">Terms and Conditions</a></li>
+                <li><a href="sponsors.html" class="btn-flat">Our Sponsors</a></li>
+                <li><a href="/ngo" class="btn-flat">NGO</a></li>
+                <li><a href="/registration" class="btn-flat">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <link type="text/css" rel="stylesheet" href="./static/css/custom.css" media="screen,projection" />
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img class="responsive-img" src="./static/images/turfpark.jpg">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h3 class="white-text">14th - 15th April</h3>
+                    <h5 class="light white-text">Be there</h5>
+                </div>
+            </li>
+            <li>
+                <img class="responsive-img" src="./static/images/chessboard.jpg">
+                <div class="caption center-align">
+                    <h3 class="white-text">22nd - 23rd June</h3>
+                    <h5 class="light white-text text-lighten-3">Be there</h5>
+                </div>
+            </li>
+            <li>
+                <img src="./static/images/basketball.jpg">
+                <div class="caption center-align">
+                    <h3 class="black-text">Coming soon!</h3>
+                    <h5 class="light white-text text-lighten-3"></h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <section id="introduction">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center-align">
+                    <h2 class="black-text">Sports For Change</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s4">
+                    <div class="card">
+                        <div class='card-title center-align'>What is Sports For Change?</div>
+                        <div class="card-content">Sports For Change is a student-driven organisation that aims to bring a change to society by bringing a fun and competitive sporting experience to everyone! Whether you are a fan of chess, basketball, or football, you will find
+                            a place to show your skills off here! Not only that, but the proceeds of all the tournaments go towards helping our children and our society! </div>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="card">
+                        <div class='card-title center-align'>Sports</div>
+                        <div class="card-content"> We are offering football, basketball, and chess in the coming months! Football will be taking place on 14th and 15th April, 2018, and chess will be on 22nd and 23rd June 2018! </div>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="card">
+                        <div class='card-title center-align'>Prizes</div>
+                        <div class="card-content"> Exciting cash prizes and vouchers for the Winners and Runners ups The cash prize for the winners of the football tournament will be Rs.7,500 and the runners' up will win Rs.5000! </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="venue">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center-align">
+                    <h1 class="black-text">Venues</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6">
+                    <div class="video-container">
+                        <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDBjuavEQZ-iQkFWgbPjURpTQf-SHmq3lc&q=TurfPark+Koramangala,Koramangala+Bangalore" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <p class="flow-text">The <b>Football</b> tournament conducted by Sports for Change, 2018 will be held at Turf Park, Bangalore</p>
+                </div>
+            </div>
+            <div class="divider black"></div>
+            <div class="row">
+                <div class="col s6">
+                    <div class="video-container">
+                        <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDBjuavEQZ-iQkFWgbPjURpTQf-SHmq3lc&q=Oakridge+International+School,Sarjapur+Bangalore" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <p class="flow-text">The <b>Chess</b> tournament and the <b>Basketball</b> tournament conducted by Sports for Change, 2018 will be held at Oakridge International School, Bangalore</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <div class="parallax-container">
+        <div class="parallax"><img class="responsive-img" src="./static/images/quote.jpg"></div>
+    </div>
+    <div class="divider black"></div>
+    <section id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center-align">
+                    <h1 class="black-text">FAQ</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-tabs">
+                            <ul class="tabs">
+                                <li class="tab col s4"><a href="#q1" class="active flow-text">Registration questions</a></li>
+                                <li class="tab col s4"><a href="#q2" class="flow-text">Event questions</a></li>
+                                <li class="tab col s4"><a href="#q3" class="flow-text">Miscellaneous questions</a></li>
+                            </ul>
+                        </div>
+                        <div class="card-content">
+                            <div id="q1">
+                                <ul class="collapsible" data-collapsible="accordion">
+                                    <li>
+                                        <div class="collapsible-header">What is the registration fee for the tournaments?</div>
+                                        <div class="collapsible-body"><span>The registration fee for the football event is &#8377;2899 per team. The registration fee for the chess tournament depends whether you have an UKCA ID or not. The initial fee is &#8377;2899 but you have to pay &#8377;50 extra if you don't have the ID. The registration fee for the basketball tournament is yet to be decided.</span></div>
+                                    </li>
+                                    <li>
+                                        <div class="collapsible-header">How do I pay the amount?</div>
+                                        <div class="collapsible-body"><span>Before making your payment, you need to have registered on our site. Once that's done, there are two ways to make the payment - one is by PayTM and the other is by cash. If you chose the appropriate payment method during the registration, instructions on how to make the transfer should have been sent to the registered email account with all the other necessary details.</span></div>
+                                    </li>
+                                    <li>
+                                        <div class="collapsible-header">If I've made the payment through PayTM, do I get a confirmation?</div>
+                                        <div class="collapsible-body"><span>After you've made the payment through PayTM, one of our representatives `will update that you've done so and you should receive an email regarding the completion of your payment</span></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="q2">
+                                <ul class="collapsible" data-collapsible="accordion">
+                                    <li>
+                                        <div class="collapsible-header">How long will the events last?</div>
+                                        <div class="collapsible-body"><span>The football event will last 2 days, over the weekend of the 14th and 15th April, 2018. If you win on day 1 and qualify for the next round, you will be required to come on day 2. If you do not qualify on day 1, you may come on day 2 to spectate. <br><br> The chess event etc.etc.. <br><br> The basketball event is yet to be confirmed</bt></span></div>
+                                    </li>
+                                    <li>
+                                        <div class="collapsible-header">Who is the event being organised by?</div>
+                                        <div class="collapsible-body"><span>The event is being organised by a group of sports enthusiastic students who want to use sports to make the world a better place.</span></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="q3">
+                                <ul class="collapsible" data-collapsible="accordion">
+                                    <li>
+                                        <div class="collapsible-header">What will happen to the proceeds from the Event?</div>
+                                        <div class="collapsible-body"><span>All proceeds collected from the Event are to be donated to charity.</span></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Contact us</h5>
+                    <p class="grey-text text-lighten-4">
+                        Email us at <a href="mailto:sports.for.change.bangalore@gmail.com">sports.for.change.bangalore@gmail.com</a>
+                        <br> Call us at +919036492611
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Social media</h5>
+                    <ul>
+                        <li><a href="https://www.facebook.com/ball.duty.9">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/sports.for.change/">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Copyright Sports for Change
+                <span class="grey-text text-lighten-4 right" href="#!"><> by <a href = "https://github.com/BK-Modding">BK-Modding</a>, <a href = "https://github.com/LaserTrajectory">Laser Trajectory</a></span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
