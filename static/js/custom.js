@@ -19,21 +19,6 @@ $(document).ready(function() {
         onClose: function(el) { /* Do Stuff */ }, // A function to be called when sideNav is closed
     });
 });
-$('a[href^="#"]').on('click', function(e) {
-    e.preventDefault();
-
-    var target = this.hash;
-    if (target != "#questions1" && target != "#questions2" && target != "#questions3" && target != "#dates" && target != "#terms") {
-        var $target = $(target);
-
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top - 75
-        }, 900, 'swing', function() {
-            window.location.hash = target;
-        });
-    }
-
-});
 
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
@@ -74,5 +59,5 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = 'April 14 2018 10:00:00 GMT+0530';
+var deadline = 'June 22 2018 10:00:00 GMT+0530';
 initializeClock('clockdiv', deadline);
